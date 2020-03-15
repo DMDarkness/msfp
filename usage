@@ -1,0 +1,9 @@
+usage of msfp:
+msfp epsilon delta dataset minimum_support number_of_items
+example: msfp 0.01 0.01 retail_rep40.dat 0.015 16470
+output: result_msfp.dat
+
+usage of sg:
+sg epsilon delta dataset minimum_support number_of_items
+example: sg 0.01 0.01 accidents_rep20.dat 0.5 468
+output: result_sg.dat
