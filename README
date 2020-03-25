@@ -1,3 +1,5 @@
+We use the tool of fpgrowth which can be downloaded from 'http://www.borgelt.net/fpgrowth.html' and is realized by Christian Borgelt
+
 usage of msfp:
 msfp epsilon delta dataset minimum_support number_of_items
 example: msfp 0.01 0.01 retail_rep40.dat 0.015 16470
