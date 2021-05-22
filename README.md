@@ -58,6 +58,17 @@ The output file is result_sg.dat
 For example:
 sg 0.01 0.01 pumsb_star_rep1000.dat 0.4 468
 
+####MCRapper: 
+
+Suppose the name of your VS2019 project is mcrapper, the usage of mcrapper.exe is
+
+mcrapper -i dataset -b 0 -j number_of_ERA -d delta
+
+The output file is 0_result.dat
+
+For example:
+mcrapper -i small.dat -b 0 -j 10 -d 0.1
+
 Ensure that the fpgrowth.exe is in the same folder of ProgSampRA.exe, SampVC.exe, sg.exe or msfp.exe
 
 [NLOpt]: https://nlopt.readthedocs.io/en/latest/ "NLopt homepage"
